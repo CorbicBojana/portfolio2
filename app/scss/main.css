@@ -101,7 +101,7 @@ a {
   margin-left: 50px;
 }
 .header .nav .nav_list .nav_list_item .nav_list_item_link:hover {
-  color: #00c6af;
+  color: #029b86;
 }
 
 .home {
@@ -120,6 +120,9 @@ a {
   color: #00c6af;
   font-size: 1.5em;
   margin: 10px 0;
+}
+.home .content .media_icons .media_icon:hover {
+  color: #029b86;
 }
 .home .content .info {
   max-width: 350px;

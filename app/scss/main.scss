@@ -65,7 +65,7 @@ a {
           margin-left: 50px;
 
           &:hover {
-            color: $second_color;
+            color: $hover_color;
           }
         }
       }
@@ -90,6 +90,10 @@ a {
         color: $second_color;
         font-size: 1.5em;
         margin: 10px 0;
+
+        &:hover {
+          color: $hover_color;
+        }
       }
     }
   
@@ -115,7 +119,7 @@ a {
     .home_img {
       width: calc(100% - 350px - 64px);
       max-height: calc(100vh - 9rem - 40px);
-      
+
       img {
         height: 100%;
       }
