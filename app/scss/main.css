@@ -76,6 +76,9 @@ a {
   letter-spacing: 1px;
   border-radius: 10px;
 }
+.btn:hover {
+  background-color: #029b86;
+}
 
 .header {
   height: 5rem;
