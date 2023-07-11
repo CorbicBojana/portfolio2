@@ -520,4 +520,89 @@ img {
   width: 100%;
   margin: 20px 0;
   border-radius: 10px;
+}
+
+.contact {
+  padding: 6rem 0;
+}
+.contact .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact .container .content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.contact .container .content .contact_left h2 {
+  font-size: 2.1em;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+.contact .container .content .contact_left .contact_list li {
+  margin-bottom: 40px;
+}
+.contact .container .content .contact_left .contact_list li h3 {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contact .container .content .contact_left .contact_list li h3 i {
+  color: #00c6af;
+  font-size: 1.3em;
+  margin-right: 10px;
+}
+.contact .container .content .contact_left .contact_list li span {
+  color: #777;
+  margin-left: 40px;
+}
+.contact .container .content .contact_left .contact_list li span a {
+  color: #777;
+  font-size: 1.6em;
+  margin-bottom: 30px;
+}
+.contact .container .content .contact_right p {
+  color: #777;
+  font-size: 1.6em;
+  margin-bottom: 30px;
+}
+.contact .container .content .contact_right p span {
+  color: #0e2431;
+  font-weight: 700;
+}
+.contact .container .content .contact_right .contact_form input, .contact .container .content .contact_right .contact_form textarea {
+  border: none;
+  color: #0e2431;
+  background-color: rgba(106, 89, 209, 0.1);
+  font-size: 1em;
+  margin-bottom: 20px;
+  padding: 15px 40px 40px 20px;
+  border-radius: 5px;
+}
+.contact .container .content .contact_right .contact_form textarea {
+  width: 100%;
+  resize: none;
+}
+.contact .container .content .contact_right .contact_form ::-moz-placeholder {
+  color: #0e2431;
+}
+.contact .container .content .contact_right .contact_form ::placeholder {
+  color: #0e2431;
+}
+.contact .container .content .contact_right .contact_form .first_row input {
+  width: 100%;
+}
+.contact .container .content .contact_right .contact_form .second_row {
+  display: flex;
+  justify-content: space-between;
+}
+.contact .container .content .contact_right .contact_form .second_row input {
+  width: 48%;
+}
+.contact .container .content .contact_right .contact_form .btn {
+  border: none;
+  margin-top: 0;
+  border-radius: 5px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

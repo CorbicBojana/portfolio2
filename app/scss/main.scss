@@ -576,3 +576,117 @@ img {
     }
   }
 }
+
+//==========CONTACT SECTION
+.contact {
+  padding: 6rem 0;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      .contact_left {
+        
+        h2 {
+          font-size: 2.1em;
+          font-weight: 800;
+          margin-bottom: 40px;
+        }
+
+        .contact_list
+
+        li {
+          margin-bottom: 40px;
+
+          h3 {
+            font-size: 1.3em;
+            font-weight: 600;
+            margin-bottom: 10px;
+
+            i {
+              color: $second_color;
+              font-size: 1.3em;
+              margin-right: 10px;
+            }
+          }
+
+          span {
+            color: $third_color;
+            margin-left: 40px;
+
+            a {
+              color: $third_color;
+              font-size: 1.6em;
+              margin-bottom: 30px;
+            }
+          }
+        }
+      }
+
+      .contact_right {
+
+        p {
+          color: $third_color;
+          font-size: 1.6em;
+          margin-bottom: 30px;
+
+          span {
+            color: $first_color;
+            font-weight: 700;
+          }
+        }
+
+        .contact_form {
+
+          input, textarea {
+            border: none;
+            color: $first_color;
+            background-color: $transparent_color_02;
+            font-size: $normal_font_size;
+            margin-bottom: 20px;
+            padding: 15px 40px 40px 20px;
+            border-radius: 5px;
+          }
+
+          textarea {
+            width: 100%;
+            resize: none;
+          }
+
+          ::placeholder {
+            color: $first_color
+          }
+
+          .first_row {
+
+            input {
+              width: 100%;
+            }
+          }
+
+          .second_row {
+            display: flex;
+            justify-content: space-between;
+
+            input {
+              width: 48%;
+            }
+          }
+
+          .btn {
+            border: none;
+            margin-top: 0;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
