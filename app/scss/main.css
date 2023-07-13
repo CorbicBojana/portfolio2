@@ -605,4 +605,63 @@ img {
   margin-top: 0;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #00c6af;
+  width: 100%;
+  margin-top: 50px;
+  padding: 3rem 2rem;
+  color: #fff;
+}
+.footer a {
+  color: #fff;
+}
+.footer .footer_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1150px;
+}
+.footer .footer_container .about_me h2 {
+  font-size: 3em;
+  font-weight: 600;
+  background: linear-gradient(to top, transparent 0%, #fff 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.8;
+}
+.footer .footer_container .about_me p {
+  font-size: 1em;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.footer .footer_container .info, .footer .footer_container .follow {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .footer_container .info h3, .footer .footer_container .follow h3 {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.footer .footer_container .info ul, .footer .footer_container .follow ul {
+  display: flex;
+}
+.footer .footer_container .info a {
+  margin: 20px;
+}
+.footer .footer_container .follow a {
+  font-size: 1.5em;
+  margin: 20px;
+}
+.footer .footer_container .footer_copyright {
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 50px;
 }/*# sourceMappingURL=main.css.map */

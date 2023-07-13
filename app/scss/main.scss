@@ -690,3 +690,82 @@ img {
     }
   }
 }
+
+//==========FOOTER
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $second_color;
+  width: 100%;
+  margin-top: 50px;
+  padding: 3rem 2rem;
+  color: $white_color;
+
+  a {
+    color: $white_color
+  }
+
+  .footer_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1150px;
+
+    .about_me {
+
+      h2{
+        font-size: 3em;
+        font-weight: 600;
+        background: linear-gradient(to top, transparent 0%, $white_color 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: .8;
+      }
+
+      p{
+        font-size: $normal_font_size;
+        font-weight: 300;
+        margin-bottom: 30px;
+      }
+    }
+
+    .info, .follow {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      h3 {
+        font-size: 1.1em;
+        font-weight: 500;
+        margin-bottom: 30px;
+      }
+
+      ul {
+        display: flex;
+      }
+    }
+
+    .info {
+
+      a {
+        margin: 20px;
+      }
+    }
+
+    .follow {
+
+      a {
+        font-size: 1.5em;
+        margin: 20px;
+      }
+    }
+
+    .footer_copyright {
+      font-size: $normal_font_size;
+      font-weight: 300;
+      margin-top: 50px;
+    }
+  }
+} 
