@@ -743,6 +743,8 @@ img {
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+    transform: translateY(-50px);
+    transition: 0.3s ease;
   }
   .header .nav .nav_list .nav_list_item .nav_list_item_link {
     display: block;
@@ -763,6 +765,9 @@ img {
   .header .active {
     visibility: visible;
     opacity: 1;
+  }
+  .header .active .nav_list {
+    transform: translateY(0);
   }
   .header .nav_menu_btn {
     background: url("../../dist/img/menu.png") no-repeat;
