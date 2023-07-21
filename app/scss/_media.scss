@@ -1,5 +1,75 @@
-@media only screen and (max-width: 780px) {
+@media screen and (max-width: 1070px) {
 
+//==========HEADER
+    .header {
+
+        .nav {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $transparent_color_01;
+            visibility: hidden;
+            opacity: 0;
+            transition: .3s ease;
+
+            .nav_list {
+                position: relative;
+                background-color: $modal_bg_color;
+                width: 600px;
+                max-width: 600px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin: 20px;
+                padding: 40px;
+                border-radius: 10px;
+                box-shadow: $box_shadow;
+
+                .nav_list_item {
+
+                    .nav_list_item_link {
+                        display: block;
+                      margin: 15px 50px;
+                    }
+                  }
+            }
+
+            .nav_close_btn {
+                position: absolute;
+                background: url("../../dist/img/close.png")no-repeat;
+                //filter: $color_filter;
+                background-size: 12px;
+                background-position: center;
+                width: 40px;
+                height: 40px;
+                top: 0;
+                right: 0;
+                margin: 10px;
+                cursor: pointer;
+            }
+        }
+
+        .active {
+            visibility: visible;
+            opacity: 1;
+        }
+    
+        .nav_menu_btn {
+            background: url("../../dist/img/menu.png")no-repeat;
+            //filter: $color_filter;
+            background-size: 30px;
+            background-position: center;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            display: block;
+        }
+    }
 }
 
 @media screen and (max-width: 1200px) and (min-width: 780px) {

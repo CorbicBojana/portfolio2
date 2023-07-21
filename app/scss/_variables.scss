@@ -15,3 +15,15 @@ $box_shadow: 0 0 2rem rgb(0 0 0 / 10%);
 
 $small_font_size: 0.9em;
 $normal_font_size: 1em;
+
+.dark_theme {
+    $first_color: #fff;
+    $second_color: #00c6af;
+    $third_color: #a9afc3;
+  
+    $body_bg_color: #0e1b31;
+    $card_bg_color: #132347;
+    $modal_bg_color: #102048;
+    $transparent_color_01: rgba(255, 255, 255, 0.1);
+    $line_color: #454f6b;
+  }
