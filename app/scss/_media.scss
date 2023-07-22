@@ -76,6 +76,132 @@
             display: block;
         }
     }
+
+//==========HOME SECTION
+    .home {
+
+        .home_container {
+
+            .info {
+                font-size: 0.85rem;
+            }
+        }
+    }
+
+//==========ABOUT SECTION
+    .about {
+
+        .container {
+
+            .content {
+                flex-direction: column;
+                align-items: center;
+
+                .about_img {
+                    overflow: hidden;
+
+                    img {
+                        min-width: 0;
+                        width: 100%;
+                    }
+                }
+
+                .about_info {
+                    min-width: 0;
+                    width: 100%;
+
+                    .professional_list {
+                        flex-direction: column;
+
+                        .list_item {
+                            justify-content: start;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+//==========SKILLS SECTION
+    .skills {
+
+        .container {
+
+            .content {
+
+                .education_all {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+
+//==========CONTACT SECTION
+    .contact {
+        
+        .container {
+
+            .content {
+                flex-direction: column;
+                font-size: 0.9rem;
+    
+                .contact_left {
+                    margin-bottom: 40px;
+                }
+    
+                .contact_right {
+    
+                    .contact_form {
+    
+                        .second_row {
+                            flex-direction: column;
+    
+                            input {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+//==========FOOTER SECTION
+    .footer {
+
+        .footer_container {
+            flex-direction: column;
+
+            .about_me, .info {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-bottom: 50px;
+            }
+
+            .info {
+
+                ul {
+                    align-items: center;
+                    flex-direction: column;
+
+                    li {
+                        margin: 5px 0;
+                    }
+                }
+            }
+
+            .hr {
+                width: 100%;
+                height: 2px;
+                background-color: rgba(255, 255, 255, 0.1);
+                margin: 10px 0 22px;
+            }
+        }
+    }
+
 }
 
 @media screen and (max-width: 1200px) and (min-width: 780px) {
