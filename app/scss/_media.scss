@@ -80,7 +80,7 @@
 //==========HOME SECTION
     .home {
 
-        .home_container {
+        .content {
 
             .info {
                 font-size: 0.85rem;
@@ -199,11 +199,53 @@
                 background-color: rgba(255, 255, 255, 0.1);
                 margin: 10px 0 22px;
             }
+
+            .follow {
+                margin-bottom: 30px;
+            }
         }
     }
 
 }
 
-@media screen and (max-width: 1200px) and (min-width: 780px) {
+@media screen and (max-width: 730px) {
+
+    body {
+        margin: 5rem 0 0 0;
+    }
+
+    .section_title_01 {
+        font-size: 3em;
+    }
+
+    .section_title_02 {
+        font-size: 2em;
+        transform: translateY(-65px);
+    }
+
+    //==========HOME SECTION
+    .home {
+
+        .content {
+            display: grid;
+
+            .home_img {
+                position: absolute;
+
+                img {
+                    width: 65%;
+                    transform: translate(80px, -180px);
+                }
+            }
+
+            .info {
+                font-size: 0.8rem;
+            }
+
+            .media_icons {
+                margin-bottom: 80px;
+            }
+        }
+    }
     
 }
