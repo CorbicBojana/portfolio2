@@ -117,6 +117,11 @@ section {
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9998;
   height: 5rem;
   display: flex;
   align-items: center;
@@ -148,7 +153,7 @@ section {
 
 .home {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 9rem 0;
 }
 .home .content {
   display: flex;
@@ -792,6 +797,9 @@ section {
     cursor: pointer;
     display: block;
   }
+  .home {
+    min-height: 100%;
+  }
   .home .content .info {
     font-size: 0.85rem;
   }
@@ -871,15 +879,8 @@ section {
     font-size: 2em;
     transform: translateY(-65px);
   }
-  .home .content {
-    display: grid;
-  }
   .home .content .home_img {
-    position: absolute;
-  }
-  .home .content .home_img img {
-    width: 65%;
-    transform: translate(80px, -180px);
+    display: none;
   }
   .home .content .info {
     font-size: 0.8rem;

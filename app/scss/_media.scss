@@ -1,6 +1,7 @@
 @media screen and (max-width: 1070px) {
 
 //==========HEADER
+
     .header {
 
         .nav {
@@ -79,6 +80,7 @@
 
 //==========HOME SECTION
     .home {
+        min-height: 100%;
 
         .content {
 
@@ -227,15 +229,9 @@
     .home {
 
         .content {
-            display: grid;
 
             .home_img {
-                position: absolute;
-
-                img {
-                    width: 65%;
-                    transform: translate(80px, -180px);
-                }
+                display: none;
             }
 
             .info {

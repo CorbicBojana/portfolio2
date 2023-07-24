@@ -79,6 +79,11 @@ section {
 
 //==========HEADER
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9998;
   height: 5rem;
   display: flex;
   align-items: center;
@@ -121,7 +126,7 @@ section {
 //==========HOME SECTION
 .home {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 9rem 0;
 
   .content {
     display: flex;
