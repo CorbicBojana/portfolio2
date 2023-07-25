@@ -81,6 +81,7 @@
 //==========HOME SECTION
     .home {
         min-height: 100%;
+        padding: 9rem 0 2rem 0;
 
         .content {
 
@@ -92,6 +93,7 @@
 
 //==========ABOUT SECTION
     .about {
+        padding: 4.4rem 0;
 
         .container {
 
@@ -124,8 +126,14 @@
         }
     }
 
+//==========PORTFOLIO SECTION
+    .portfolio {
+        padding: 4.4rem 0;
+    }
+
 //==========SKILLS SECTION
     .skills {
+        padding: 4.4rem 0;
 
         .container {
 
@@ -141,6 +149,7 @@
 
 //==========CONTACT SECTION
     .contact {
+        padding: 4.4rem 0;
         
         .container {
 

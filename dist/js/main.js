@@ -84,9 +84,8 @@ const menuBtn = document.querySelector(".nav_menu_btn");
 const closeBtn = document.querySelector(".nav_close_btn");
 const navigation = document.querySelector(".nav");
 const navItems = document.querySelectorAll(".nav_list_item_link");
-console.log(1)
+
 menuBtn.addEventListener("click", () => {
-    console.log(1)
     navigation.classList.add("active")
 })
 

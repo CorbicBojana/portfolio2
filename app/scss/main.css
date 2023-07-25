@@ -799,9 +799,13 @@ section {
   }
   .home {
     min-height: 100%;
+    padding: 9rem 0 2rem 0;
   }
   .home .content .info {
     font-size: 0.85rem;
+  }
+  .about {
+    padding: 4.4rem 0;
   }
   .about .container .content {
     flex-direction: column;
@@ -824,9 +828,18 @@ section {
   .about .container .content .about_info .professional_list .list_item {
     justify-content: start;
   }
+  .portfolio {
+    padding: 4.4rem 0;
+  }
+  .skills {
+    padding: 4.4rem 0;
+  }
   .skills .container .content .education_all {
     display: flex;
     flex-direction: column;
+  }
+  .contact {
+    padding: 4.4rem 0;
   }
   .contact .container .content {
     flex-direction: column;
