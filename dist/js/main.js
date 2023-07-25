@@ -98,3 +98,23 @@ navItems.forEach((navItem) => {
         navigation.classList.remove("active")
     })
 })
+
+ScrollReveal({
+    reset: true,
+    ditance: "60px",
+    duration: 2500,
+    delay: 100
+});
+
+ScrollReveal().reveal(".home .info h2, .section_title_01, .section_title_02", { delay: 500, origin: "left"});
+ScrollReveal().reveal(".home .info h3, .home .info p, .about_info, .btn", { delay: 600, origin: "right"});
+ScrollReveal().reveal(".home .info .btn", { delay: 700, origin: "bottom"});
+ScrollReveal().reveal(".media_icons i, .contact_left li", { delay: 500, origin: "left", interval: 200});
+ScrollReveal().reveal(".home_img, .about_img", { delay: 500, origin: "bottom"});
+ScrollReveal().reveal(".about .description, .contact_right", { delay: 600, origin: "right"});
+ScrollReveal().reveal(".about .professional_list li", { delay: 500, origin: "right", interval: 200});
+ScrollReveal().reveal(".skills_description, .contact_left h2", { delay: 700, origin: "left"});
+ScrollReveal().reveal(".education, .portfolio, .img_card", { delay: 800, origin: "bottom", interval: 200});
+ScrollReveal().reveal(".group", { delay: 500, origin: "top", interval: 200});
+
+
